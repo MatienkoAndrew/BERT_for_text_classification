@@ -31,3 +31,22 @@ pip install -r requirements.txt
 ```
 python __main__.py
 ```
+
+3. Вывод
+
+```
+Training...:   3%|███▏                                                                                                   | 173/5536 [01:10<36:29,  2.45it/s]
+  3%|███▊                                                                                                                  | 22/692 [00:02<01:20,  8.32it/s]
+Epoch: 01
+        Train Loss: 0.384 | Train PPL:   1.468
+         Val. Loss: 0.314 |  Val. PPL:   1.368
+Training...:   3%|███▏                                                                                                   | 173/5536 [01:11<36:57,  2.42it/s]
+  3%|███▊                                                                                                                  | 22/692 [00:02<01:17,  8.66it/s]
+Epoch: 02
+        Train Loss: 0.195 | Train PPL:   1.215
+         Val. Loss: 0.338 |  Val. PPL:   1.402
+  3%|███▊                                                                                                                  | 22/692 [00:02<01:16,  8.71it/s]
+Accuracy on test: 0.8771676300578035 | My trained model
+  3%|███▊                                                                                                                  | 22/692 [00:02<01:15,  8.87it/s]
+Accuracy on test: 0.9869942196531792 | Transformer model
+```
